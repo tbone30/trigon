@@ -1,22 +1,11 @@
 import React from 'react';
 import { Trophy, Heart, Star, BookOpen } from 'lucide-react';
+import Navbar from '../components/navbar.js';
 
 const AboutPage = () => {
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Navigation Bar */}
-      <nav className="bg-red-700 text-white p-4">
-        <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-bold">Trigon Engineering Society</h1>
-          <div className="space-x-6">
-            <a href="#" className="hover:text-gray-200">Home</a>
-            <a href="/about" className="hover:text-gray-200">About</a>
-            <a href="#" className="hover:text-gray-200">Events</a>
-            <a href="#" className="hover:text-gray-200">Brothers</a>
-            <a href="#" className="hover:text-gray-200">Contact</a>
-          </div>
-        </div>
-      </nav>
+      <Navbar/>
 
       {/* Hero Section */}
       <div className="bg-red-800 text-white py-16">
