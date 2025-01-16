@@ -10,7 +10,7 @@ const HomePage = () => {
       <div className="bg-red-800 text-white py-20">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4">Welcome to Our Brotherhood</h2>
-          <p className="text-xl mb-8">Leadership • Scholarship • Service</p>
+          <p className="text-xl mb-8">Brotherhood • Social • Service</p>
           <button className="bg-white text-red-800 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100">
             Learn More
           </button>
