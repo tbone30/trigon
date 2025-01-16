@@ -7,14 +7,28 @@ const HomePage = () => {
     <div className="min-h-screen bg-gray-50">
       <Navbar/>
       {/* Hero Section */}
-      <div className="bg-red-800 text-white py-20">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-4">Welcome to Our Brotherhood</h2>
-          <p className="text-xl mb-8">Brotherhood • Social • Service</p>
-          <button className="bg-white text-red-800 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100">
-            Learn More
-          </button>
+      <div className="relative h-[300px] text-white">
+         {/* Background image */}
+        <div 
+          className="absolute inset-0 z-0"
+          style={{
+            backgroundImage: "url('/trigon-party-april-1971.jpg')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
         </div>
+        
+        {/* Content - now with relative positioning to appear above the background */}
+        <div className="relative z-10 h-full flex items-center">
+          <div className="relative z-10 max-w-6xl mx-auto text-center">
+            <h2 className="text-4xl text-red-700 font-bold mb-4">Welcome to Our Brotherhood</h2>
+            <p className="text-xl text-red-700 mb-8">Brotherhood • Social • Service</p>
+            <button className="bg-white text-red-800 px-6 py-2 rounded-lg font-semibold hover:bg-gray-100">
+              Learn More
+            </button>
+          </div>
+        </div>  
       </div>
 
       {/* Features Section */}
