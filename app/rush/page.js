@@ -29,28 +29,6 @@ const AboutPage = () => {
           </div>
         </div>
 
-        {/* Core Values */}
-        <div className="mb-16">
-          <h3 className="text-3xl font-bold text-black mb-6">Our Pillars</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <Trophy className="w-8 h-8 text-red-600 mb-2" />
-              <h4 className="text-xl font-bold text-black mb-2">Brotherhood</h4>
-              <p className="text-gray-600">Developing the next generation of leaders through mentorship and opportunity.</p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-md">
-              <Heart className="w-8 h-8 text-red-600 mb-2" />
-              <h4 className="text-xl font-bold text-black mb-2">Social</h4>
-              <p className="text-gray-600">Creating lifelong bonds through shared experiences and mutual support.</p>
-            </div>
-            <div className="bg-white p-6 rounded-lg text-black shadow-md">
-              <Star className="w-8 h-8 text-red-600 mb-2" />
-              <h4 className="text-xl font-bold mb-2">Service</h4>
-              <p className="text-gray-600">Giving back to our community through volunteer work and philanthropy.</p>
-            </div>
-          </div>
-        </div>
-
         {/* SCHEDULE INFO GRID */}
         <div className="mb-16">
             <h3 className="text-3xl font-bold text-black mb-6">Rush Schedule</h3>
