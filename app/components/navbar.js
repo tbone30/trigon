@@ -5,7 +5,7 @@ function Navbar() {
   const navLinks = [
     { href: '/', text: 'Home' },
     { href: '/about', text: 'About' },
-    { href: '/events', text: 'Events' },
+    { href: '/rush', text: 'Rush' },
     { href: '/brothers', text: 'Brothers' },
     { href: '/contact', text: 'Contact' }
   ];
